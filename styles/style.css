@@ -6,16 +6,18 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    margin-bottom: 20px;
     background-color: white;
     width: 100%;
-    height: 293px;
+    height: 160px;
+    margin-bottom: 0;
+    padding: 40px 0;
 }
 
 .header__menu {
     display: flex;
     flex-direction: row;
     gap: 13px;
+    align-self: start;
 }
 .header__logo {
     display: block;
@@ -27,13 +29,16 @@
 .header__address {
     max-width: 240px;
     justify-self: end;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
 }
 
 .cover {
     margin-top: 0;
     margin-bottom: 180px;
     width: 100%;
-    height: 757px;
+    height: 760px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
@@ -69,28 +74,29 @@
     font-style: Bold;
     font-size: 100px;
     line-height: 114.99999999999999%;
-    letter-spacing: 30%;
     text-transform: uppercase;
     color: white;
+    position: relative;
+    letter-spacing: 10px;
 }
 
 .span {
     position: absolute;
     z-index: 2;
     white-space: nowrap;
-    letter-spacing: 30px;
+    letter-spacing: 12px;
 }
 .one {
     top: 165px;
     left: 50px;
 }
 .two {
-    top: 300px;
-    left: 380.5px;
+    top: 370px;
+    left: 380px;
 }
 .three {
-    top: 435px;
-    left: 663px;
+    top: 510px;
+    left: 690px;
 }
 .cover__description {
     position: absolute;
@@ -99,7 +105,8 @@
     flex-direction: row;
     left: 50px;
     right: 50px;
-    gap: 107px;
+    bottom: 80px;
+    gap: 60px;
 }
 .subline {
     font-family: Raleway;
@@ -108,10 +115,10 @@
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    letter-spacing: 90%;
-    word-spacing: 20px;
+    letter-spacing: 3px;
+    word-spacing: 8px;
     white-space: nowrap;
-    width: 637px;
+    width: auto;
     height: 28px;
     opacity: 1;
     top: 668px;
@@ -122,8 +129,9 @@
 .header__links-list {
     display: flex;
     flex-direction: row;
-    gap: 25px;
-    margin-top: 27px;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
 }
 
 .header__links-list-item {
@@ -161,7 +169,7 @@ button {
 
 .lots__card-list-item {
     width: 334px;
-    min-height: 596px;
+    height: 500px;
 }
 
 .card-link {
@@ -185,7 +193,7 @@ button {
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: white;
-    margin: 48px 40px 0px 40px;
+    margin-top: 30px;
 }
 
 .card__text {
@@ -212,6 +220,10 @@ button {
     flex-direction: row;
     gap: 25px;
     flex-wrap: wrap;
+}
+
+.lots .container {
+    margin-top: 60px;
 }
 
 .lots__card-list {
@@ -241,6 +253,7 @@ button {
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
+    gap: 60px;
 }
 
 .logo__column {
@@ -274,6 +287,7 @@ button {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
 .about__text {
@@ -283,7 +297,8 @@ button {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0%;
-    width: 693px;
+    width: 100%;
+    max-width: 720px;
 }
 
 .about__column {
@@ -305,10 +320,10 @@ button {
 .footer .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 20px;
     align-items: start;
-    height: 180px;
-    margin-top: 180px;
+    height: auto;
+    margin-top: 120px;
 }
 
 .footer__menu {
@@ -339,8 +354,8 @@ button {
     list-style: none;
 }
 .footer__social-icon {
-    height: 48px;
-    width: 48px;
+    width: 40px;
+    height: 40px;
 }
 .footer__menu-list-item {
     list-style: none;
