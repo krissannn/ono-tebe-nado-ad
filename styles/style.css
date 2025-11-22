@@ -88,20 +88,7 @@
     letter-spacing: 12px;
 }
 
-.one {
-    top: 155px;
-    left: 40px;
-}
 
-.two {
-    top: 300px;
-    left: 380px;
-}
-
-.three {
-    top: 430px;
-    left: 650px;
-}
 
 .cover__description {
     position: absolute;
