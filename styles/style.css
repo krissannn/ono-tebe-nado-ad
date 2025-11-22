@@ -192,6 +192,7 @@ button {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .card-link {
@@ -250,6 +251,9 @@ button {
 
 .lots .container {
     margin-top: 60px;
+    padding: 0 24px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .lots__card-list {
@@ -337,9 +341,6 @@ button {
 
 .container {
     width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 24px;
     box-sizing: border-box;
     margin-bottom: 20px;
 }
@@ -388,4 +389,8 @@ button {
 
 .footer__menu-list-item {
     list-style: none;
+}
+
+.footer {
+    height: 
 }
