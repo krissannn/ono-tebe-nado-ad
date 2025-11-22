@@ -8,7 +8,7 @@
     align-items: center;
     background-color: white;
     width: 100%;
-    height: 160px;
+    height: 150px;
     margin-bottom: 0;
     padding: 40px 0;
 }
@@ -19,6 +19,7 @@
     gap: 13px;
     align-self: start;
 }
+
 .header__logo {
     display: block;
     width: 148px;
@@ -77,7 +78,7 @@
     text-transform: uppercase;
     color: white;
     position: relative;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
 }
 
 .span {
@@ -86,18 +87,22 @@
     white-space: nowrap;
     letter-spacing: 12px;
 }
+
 .one {
-    top: 165px;
-    left: 50px;
+    top: 155px;
+    left: 40px;
 }
+
 .two {
-    top: 370px;
+    top: 300px;
     left: 380px;
 }
+
 .three {
-    top: 510px;
-    left: 690px;
+    top: 430px;
+    left: 650px;
 }
+
 .cover__description {
     position: absolute;
     bottom: 50px;
@@ -105,9 +110,10 @@
     flex-direction: row;
     left: 50px;
     right: 50px;
-    bottom: 80px;
+    bottom: 60px;
     gap: 60px;
 }
+
 .subline {
     font-family: Raleway;
     font-weight: 400;
@@ -142,11 +148,12 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: black;
-
 }
+
 .header__links-list li {
     list-style: circle;
 }
+
 button {
     background: none;
     padding: 0;
@@ -169,7 +176,10 @@ button {
 
 .lots__card-list-item {
     width: 334px;
-    height: 500px;
+    height: 520px;
+}
+.lots__heading {
+    margin-left: 50px;
 }
 
 .card-link {
@@ -206,6 +216,7 @@ button {
     color: white;
     margin: 0px 40px 48px 40px;
 }
+
 .card {
     height: 100%;
     display: flex;
@@ -231,7 +242,8 @@ button {
     display: flex;
     flex-direction: row;
     gap: 25px;
-    align-content: space-between;;
+    align-content: space-between;
+    ;
 }
 
 .lots__look-more-link {
@@ -244,12 +256,14 @@ button {
     border-bottom: 1px solid black;
     color: black;
     margin-left: 64px;
+    margin-top: 20px;
 }
 
 .about {
     gap: 72px;
     margin-top: 120px;
 }
+
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
@@ -260,7 +274,6 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 35px;
-
 }
 
 .about__logo {
@@ -302,13 +315,13 @@ button {
 }
 
 .about__column {
-    align-self: end; /* Прижимает блок к нижнему краю */
+    align-self: end;
 }
+
 .about__text:first-child {
     margin-bottom: 24px;
 }
 
-/* === Универсальный контейнер с отступами === */
 .container {
     width: 100%;
     max-width: 1440px;
@@ -353,10 +366,12 @@ button {
     justify-content: space-between;
     list-style: none;
 }
+
 .footer__social-icon {
     width: 40px;
     height: 40px;
 }
+
 .footer__menu-list-item {
     list-style: none;
 }
