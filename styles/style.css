@@ -263,7 +263,7 @@ logo__column {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
-    padding-left: 24px;
+    padding-left: 26px;
 }
 
 .lots__look-more-link {
@@ -273,7 +273,7 @@ logo__column {
     font-size: 20px;
     line-height: 100%;
     color: black;
-    margin-top: 40px;
+    margin-top: 45px;
     margin-left: 60px;
 }
 
@@ -285,7 +285,7 @@ logo__column {
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 35px;
+    gap: 30px;
     align-items: start;
     justify-items: center;
 }
@@ -298,9 +298,9 @@ logo__column {
     margin-right: 24px;
 }
 
-.about__text:last-child {
+/*.about__text:last-child {
     margin-top: auto;
-}
+}*/
 
 
 .about__logo {
@@ -340,12 +340,11 @@ logo__column {
     letter-spacing: 0%;
     width: 100%;
     max-width: 720px;
-    margin-bottom: 24px;
     margin-right: 54px;
 }
 
 .about__text:first-child {
-    margin-bottom: 14px;
+    margin-bottom: 10px;
 }
 
 
@@ -391,11 +390,12 @@ logo__column {
     height: 48px;
     justify-content: space-between;
     list-style: none;
+    margin-left: 50px;
 }
 
 .footer__social-icon {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
 }
 
 .footer__menu-list-item {
