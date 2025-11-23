@@ -260,7 +260,6 @@ button {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
-    margin-left: 0;
 }
 
 .lots__look-more-link {
@@ -293,17 +292,20 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 72px;
+    margin-left: 30px;
     width: 693px;
 }
 logo__column {
-    margin-left: 47px;
+
 }
 
 .about__text:last-child {
     margin-top: auto;
 }
 
+.logo_column {
+    
+}
 
 .about__logo {
     width: 240px;
@@ -312,7 +314,9 @@ logo__column {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: black
+    background-color: black;
+    margin-left: 67px;
+    margin-top: 47px;
 }
 
 .about__logo-image {
@@ -329,7 +333,6 @@ logo__column {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    margin-bottom: 32px;
     margin-top: 136px;
     margin-bottom: 100px;
 }
@@ -343,11 +346,11 @@ logo__column {
     letter-spacing: 0%;
     width: 100%;
     max-width: 720px;
-    margin-bottom: 24px;
 }
 
 .about__column {
-    align-self: start;
+    align-self: end;
+    height: 449px;
 }
 
 .about__text:first-child {
