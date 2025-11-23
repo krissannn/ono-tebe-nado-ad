@@ -189,7 +189,7 @@ logo__column {
 }
 
 .lots__heading {
-    margin-left: 64px;
+    margin-left: 60px;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
@@ -263,7 +263,7 @@ logo__column {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .lots__look-more-link {
@@ -273,7 +273,7 @@ logo__column {
     font-size: 20px;
     line-height: 100%;
     color: black;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 65px;
 }
 
@@ -285,7 +285,7 @@ logo__column {
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 30px;
+    gap: 26px;
     align-items: start;
     justify-items: center;
 }
@@ -347,13 +347,11 @@ logo__column {
     margin-bottom: 10px;
 }
 
-
 .container {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 20px;
 }
-
 
 .footer .container {
     display: grid;
@@ -361,7 +359,7 @@ logo__column {
     gap: 20px;
     align-items: start;
     height: auto;
-    margin-top: 110px;
+    margin-top: 125px;
 }
 
 .footer__menu {
@@ -390,7 +388,7 @@ logo__column {
     height: 48px;
     justify-content: space-between;
     list-style: none;
-    margin-left: 35px;
+    margin-left: 38px;
 }
 
 .footer__social-icon {
