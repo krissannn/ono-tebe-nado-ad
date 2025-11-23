@@ -245,6 +245,7 @@ button {
 
 .lots {
     box-sizing: border-box;
+    padding-left: 0;
 }
 
     .lots .container {
@@ -252,6 +253,8 @@ button {
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
+        margin-left: 0;
+        padding-left: 0;
     }
 
 .lots__card-list {
