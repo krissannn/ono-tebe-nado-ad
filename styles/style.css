@@ -185,6 +185,7 @@ button {
 
 logo__column {
     padding-left: 15px;
+    margin-right: 0;
 }
 
 .lots__heading {
@@ -277,7 +278,6 @@ logo__column {
 }
 
 .about {
-    gap: 55px;
     margin-top: 155px;
     margin-left: 22px;
 }
@@ -295,6 +295,7 @@ logo__column {
     flex-direction: column;
     justify-content: flex-start;
     align-self: start;
+    margin-right: 24px;
 }
 
 .about__text:last-child {
@@ -340,10 +341,11 @@ logo__column {
     width: 100%;
     max-width: 720px;
     margin-bottom: 24px;
+    margin-right: 24px;
 }
 
 .about__text:first-child {
-    margin-bottom: 24px;
+    margin-bottom: 14px;
 }
 
 
