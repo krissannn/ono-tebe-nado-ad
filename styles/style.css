@@ -248,7 +248,7 @@
 }
 
 .lots .container {
-    padding: 0;
+    padding: 0 24px;
     margin-top: 60px;
     width: 100%;
     max-width: 100%;
@@ -267,34 +267,40 @@
     display: block;
     font-family: Raleway;
     font-weight: 400;
-    font-style: Regular;
     font-size: 20px;
     line-height: 100%;
-    letter-spacing: 0%;
     border-bottom: 1px solid black;
     color: black;
     margin-top: 20px;
-    margin-left: 0; /* УБРАТЬ 64px — это ломает сетку */
+    margin-left: 0;
 }
+
 
 .about {
     gap: 72px;
     margin-top: 140px;
 }
 
+
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 72px;
-    align-items: stretch
+    align-items: start;
+    justify-items: center;
 }
 
-.logo__column {
+
+.about__column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 35px;   
+    justify-content: flex-start;
 }
+
+.about__text:last-child {
+    margin-top: auto;
+}
+
 
 .about__logo {
     width: 240px;
@@ -343,9 +349,6 @@
     margin-bottom: 24px;
 }
 
-.about__text:last-child {
-    margin-top: auto;
-}
 
 .container {
     width: 100%;
