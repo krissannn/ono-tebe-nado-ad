@@ -273,8 +273,8 @@
     letter-spacing: 0%;
     border-bottom: 1px solid black;
     color: black;
-    margin-left: 64px;
     margin-top: 20px;
+    margin-left: 0; /* УБРАТЬ 64px — это ломает сетку */
 }
 
 .about {
@@ -292,8 +292,8 @@
 .logo__column {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;
-    margin-top: 35px; */    
+    justify-content: center;
+    margin-top: 35px;   
 }
 
 .about__logo {
