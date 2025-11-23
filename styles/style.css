@@ -108,7 +108,6 @@
 
 .cover__description {
     position: absolute;
-    bottom: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -279,7 +278,8 @@ logo__column {
 
 .about {
     gap: 72px;
-    margin-top: 170px;
+    margin-top: 160px;
+    margin-left: 24px;
 }
 
 .about .container {
@@ -294,6 +294,7 @@ logo__column {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-self: start;
 }
 
 .about__text:last-child {
@@ -339,10 +340,6 @@ logo__column {
     width: 100%;
     max-width: 720px;
     margin-bottom: 24px;
-}
-
-.about__column {
-    align-self: start;
 }
 
 .about__text:first-child {
