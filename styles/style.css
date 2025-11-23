@@ -114,7 +114,6 @@
     align-items: center;
     left: 50px;
     right: 50px;
-    bottom: 48px;
     gap: 60px;
 }
 
@@ -400,8 +399,4 @@
 
 .footer__menu-list-item {
     list-style: none;
-}
-
-.footer {
-    height: 
 }
