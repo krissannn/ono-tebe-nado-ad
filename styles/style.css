@@ -194,7 +194,6 @@ button {
     letter-spacing: 0%;
     text-transform: uppercase;
     margin-bottom: 32px;
-    padding-left: 0;
 }
 
 .card-link {
@@ -245,17 +244,14 @@ button {
 
 .lots {
     box-sizing: border-box;
-    padding-left: 0;
 }
 
-    .lots .container {
-        margin-top: 60px;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        margin-left: 0;
-        padding-left: 0;
-    }
+.lots .container {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 
 .lots__card-list {
     list-style: none;
@@ -263,6 +259,7 @@ button {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
+    padding-left: 2px;
 }
 
 .lots__look-more-link {
@@ -403,6 +400,3 @@ button {
     list-style: none;
 }
 
-.footer {
-    height:
-}
