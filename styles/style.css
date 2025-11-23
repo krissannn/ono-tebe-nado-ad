@@ -285,7 +285,7 @@ logo__column {
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 65px;
+    gap: 35px;
     align-items: start;
     justify-items: center;
 }
@@ -341,7 +341,7 @@ logo__column {
     width: 100%;
     max-width: 720px;
     margin-bottom: 24px;
-    margin-right: 24px;
+    margin-right: 54px;
 }
 
 .about__text:first-child {
