@@ -180,8 +180,12 @@ button {
 }
 
 .lots__card-list-item {
-    width: 337px;
-    height: 580px;
+    width: 334px;
+    height: 596px;
+}
+
+logo__column {
+    padding-left: 15px;
 }
 
 .lots__heading {
@@ -259,7 +263,7 @@ button {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
-    padding-left: 2px;
+    padding-left: 24px;
 }
 
 .lots__look-more-link {
@@ -273,7 +277,6 @@ button {
     margin-left: 60px;
 }
 
-
 .about {
     gap: 72px;
     margin-top: 165px;
@@ -282,7 +285,7 @@ button {
 .about .container {
     display: grid;
     grid-template-columns: 334px 1fr;
-    gap: 72px;
+    gap: 65px;
     align-items: start;
     justify-items: center;
 }
