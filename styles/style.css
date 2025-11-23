@@ -44,7 +44,7 @@
     margin-top: 0;
     margin-bottom: 150px;
     width: 100%;
-    height: 760px;
+    height: 758px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
@@ -260,24 +260,25 @@ button {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
+    margin-left: 0;
 }
 
 .lots__look-more-link {
-    display: block;
     font-family: Raleway;
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
     border-bottom: 1px solid black;
     color: black;
-    margin-top: 20px;
-    margin-left: 0;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 
 .about {
     gap: 72px;
-    margin-top: 140px;
+    margin-top: 120px;
+    margin-bottom: 180px;
 }
 
 .about .container {
@@ -292,6 +293,11 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-left: 72px;
+    width: 693px;
+}
+logo__column {
+    margin-left: 47px;
 }
 
 .about__text:last-child {
@@ -403,5 +409,7 @@ button {
 }
 
 .footer {
-    height:
+    display: flex;
+    align-content: start;
+    justify-content: space-between;
 }
