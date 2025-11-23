@@ -279,7 +279,7 @@ logo__column {
 
 .about {
     margin-top: 155px;
-    margin-left: 22px;
+    margin-left: 20px;
 }
 
 .about .container {
@@ -327,7 +327,7 @@ logo__column {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    margin-top: 90px;
+    margin-top: 75px;
     margin-bottom: 90px;
 }
 
@@ -358,8 +358,8 @@ logo__column {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     align-items: start;
-    height: auto;
-    margin-top: 125px;
+    height: 180px;
+    margin-top: 135px;
 }
 
 .footer__menu {
@@ -388,7 +388,7 @@ logo__column {
     height: 48px;
     justify-content: space-between;
     list-style: none;
-    margin-left: 38px;
+    margin-left: 30px;
 }
 
 .footer__social-icon {
@@ -399,4 +399,3 @@ logo__column {
 .footer__menu-list-item {
     list-style: none;
 }
-
