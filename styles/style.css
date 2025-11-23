@@ -327,8 +327,8 @@ logo__column {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    margin-top: 116px;
-    margin-bottom: 90px;
+    margin-top: 112px;
+    margin-bottom: 87px;
 }
 
 .about__text {
@@ -359,7 +359,7 @@ logo__column {
     gap: 20px;
     align-items: start;
     height: 180px;
-    margin-top: 145px;
+    margin-top: 165px;
 }
 
 .footer__menu {
