@@ -263,7 +263,7 @@ logo__column {
     flex-direction: row;
     gap: 25px;
     align-content: space-between;
-    padding-left: 26px;
+    padding-left: 30px;
 }
 
 .lots__look-more-link {
@@ -273,8 +273,8 @@ logo__column {
     font-size: 20px;
     line-height: 100%;
     color: black;
-    margin-top: 45px;
-    margin-left: 60px;
+    margin-top: 50px;
+    margin-left: 65px;
 }
 
 .about {
@@ -361,7 +361,7 @@ logo__column {
     gap: 20px;
     align-items: start;
     height: auto;
-    margin-top: 70px;
+    margin-top: 110px;
 }
 
 .footer__menu {
@@ -390,7 +390,7 @@ logo__column {
     height: 48px;
     justify-content: space-between;
     list-style: none;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 .footer__social-icon {
